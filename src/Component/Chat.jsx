@@ -3,7 +3,7 @@ import { io } from 'socket.io-client'
 import '../Component/style.css'
 
 const Chat = () => {
-    const socket = io("http://localhost:4000/")  // to make continous connection with server 
+    const socket = io("https://chat-api-uq6p.onrender.com/")  // to make continous connection with server 
     
     socket.on('Msg',(data)=>{   //getting the same data from server and reading here using .on method
         console.log(data);
