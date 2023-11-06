@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    padding: 3rem 0 0 0;
+}
+h2{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+h3{
+    font-size: x-large;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+button{
+    margin-bottom: 28px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+button:hover{
+    background-color: rgb(125, 194, 254);
+    font-weight: bold;
+    color: white;
+}
