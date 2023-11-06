@@ -2,7 +2,7 @@ import React from 'react'
 import { io } from 'socket.io-client'
 import '../Component/style.css'
 
-const Chat = () => {
+const Chatindex = () => {
     const socket = io("https://chat-api-uq6p.onrender.com/")  // to make continous connection with server 
     
     socket.on('Msg',(data)=>{   //getting the same data from server and reading here using .on method
@@ -58,4 +58,4 @@ const Chat = () => {
   )
 }
 
-export default Chat
+export default Chatindex
